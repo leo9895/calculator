@@ -1,0 +1,44 @@
+/* src/app/calculator/calculator.component.css */
+.calculator {
+  max-width: 360px;
+  margin: 30px auto;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.field {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.field label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.field input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin-top: 12px;
+}
+
+.buttons button {
+  padding: 8px 12px;
+  margin: 6px 6px 0 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 14px;
+  font-size: 1.05rem;
+}
