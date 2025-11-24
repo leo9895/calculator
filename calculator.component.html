@@ -1,0 +1,27 @@
+<!-- src/app/calculator/calculator.component.html -->
+<div class="calculator">
+  <h2>Simple Calculator</h2>
+
+  <div class="field">
+    <label>First number</label>
+    <input type="number" [(ngModel)]="number1" placeholder="Enter first number" />
+  </div>
+
+  <div class="field">
+    <label>Second number</label>
+    <input type="number" [(ngModel)]="number2" placeholder="Enter second number" />
+  </div>
+
+  <div class="buttons">
+    <button (click)="calculate('add')">+</button>
+    <button (click)="calculate('subtract')">−</button>
+    <button (click)="calculate('multiply')">×</button>
+    <button (click)="calculate('divide')">÷</button>
+    <button (click)="clear()">Clear</button>
+  </div>
+
+  <div class="result">
+    <strong>Result:</strong>
+    <span>{{ result }}</span>
+  </div>
+</div>
